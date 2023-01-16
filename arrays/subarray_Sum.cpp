@@ -17,7 +17,7 @@ int longestSubArrWithSumK_BF(int arr[], int n, int k) {
 
 int main() {
 
-  int arr[] = {7,1,6,0,5,34};
+  int arr[] = {7,1,6,0};
   int n = sizeof(arr) / sizeof(arr[0]), k = 7;
 
   cout << "Length of the longest subarray with sum K is " << 
