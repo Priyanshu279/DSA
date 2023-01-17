@@ -9,15 +9,12 @@ int secondSmallest(int arr[],int n){
     int second_small = INT_MAX;
     int i;
 	
-    for(i = 0; i < n; i++) 
-    {
-       if(arr[i] < small)
-       {
+    for(i = 0; i < n; i++){
+       if(arr[i] < small){
           second_small = small;
           small = arr[i];
        }
-       else if(arr[i] < second_small && arr[i] != small)
-       {
+       else if(arr[i] < second_small && arr[i] != small){
           second_small = arr[i];
        }
     }
@@ -32,13 +29,11 @@ int secondLargest(int arr[],int n){
     int i;
 	
     for (i = 0; i < n; i++){
-        if (arr[i] > large) 
-        {
+        if (arr[i] > large){
             second_large = large;
             large = arr[i];
         }
-        else if (arr[i] > second_large && arr[i] != large) 
-        {
+        else if (arr[i] > second_large && arr[i] != large){
             second_large = arr[i];
         }
     }
@@ -46,7 +41,7 @@ int secondLargest(int arr[],int n){
 }
 
 int main(){
-    int arr[]={1,2,4,7,7,5};  
+    int arr[] = {1,2,4,7,7,5};  
     int n = sizeof(arr)/sizeof(arr[0]);
         int sS = secondSmallest(arr,n);
         int sL = secondLargest(arr,n);
