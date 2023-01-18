@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-void Rotatetoleft(int arr[], int n, int k)
-{
+
+void Rotatetoleft(int arr[], int n, int k){
   if (n == 0)
     return;
   k = k % n;
