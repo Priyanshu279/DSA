@@ -26,13 +26,13 @@ void display(node*head)
 
 int main()
 {
-    struct node*first=new node(10);
-    struct node*second=new node(20);
-    struct node*third=new node(30);
-    struct node*fourth=new node(40);
+    struct node*first = new node(10);
+    struct node*second = new node(20);
+    struct node*third = new node(30);
+    struct node*fourth = new node(40);
 
-    first->next=second;
-    second->next=third;
+    first->next = second;
+    second->next = third;
     third->next=fourth;
     fourth->next=NULL;
 
