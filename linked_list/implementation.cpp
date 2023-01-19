@@ -8,15 +8,15 @@ struct node
 
     node(int x)
     {
-        data=x;
-        next=NULL;
+        data = x;
+        next = NULL;
     }
 };
 
 void display(node*head)
 {
-    node*cur=head;
-    while(cur!=NULL)
+    node*cur = head;
+    while(cur != NULL)
     {
         cout<<cur->data<<endl;
         cur=cur->next;
@@ -33,8 +33,8 @@ int main()
 
     first->next = second;
     second->next = third;
-    third->next=fourth;
-    fourth->next=NULL;
+    third->next = fourth;
+    fourth->next = NULL;
 
     display(first);
 
