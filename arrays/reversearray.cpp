@@ -7,13 +7,13 @@ int main()
     int n,in;
     cin>>n;
 
-    for(int i=0;i<n;i++)
+    for(int i = 0; i<n; i++)
     {
-        cin>>in;
+        cin >> in;
         v.push_back(in);
     }
-    int low=0;
-    int high=n-1;
+    int low = 0;
+    int high = n-1;
 
     while(low<=high)
     {
