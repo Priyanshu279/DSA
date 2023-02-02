@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//Here tthe node is created using structure but can also be created using class
 struct node
 {
     node*next;
