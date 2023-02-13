@@ -12,7 +12,7 @@ void zerosToEnd(int arr[],int n) {
             }
         }
        
-        while (k<n){
+        while(k<n){
             temp[k]=0;
             k++;
         }
@@ -23,6 +23,6 @@ void zerosToEnd(int arr[],int n) {
     }
 
 int main() {
-      int arr[] ={ 1,2,0,1,0,4,0};
-       zerosToEnd(arr,7);
+      int arr[] ={0,1,0,2,0,1,0,4,0};
+       zerosToEnd(arr,9);
 }
